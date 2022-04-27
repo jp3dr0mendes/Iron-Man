@@ -1,3 +1,20 @@
-h1{
-    color: blue;
+body {
+    justify-content: center;
+    background-color: rgb(255, 86, 86);
+    margin: 0px;
+}
+
+.conteiner {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.mask {
+    justify-content:center;
+    position: absolute;
+    width: 350px;
+    height: 600PX;
+    background-color: blue;
+    opacity: 50%;
 }
